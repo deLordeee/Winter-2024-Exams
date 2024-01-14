@@ -1,5 +1,5 @@
 // Sum all numbers from an array
-
+'use strict';
 const sum = (arr = []) => {
   let resultSum = 0;
   
