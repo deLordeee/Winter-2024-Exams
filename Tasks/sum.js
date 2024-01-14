@@ -9,8 +9,7 @@ const sum = (arr = []) => {
     }
   }
   
-  return sum[sum.length - 1];
-  sum.push(sum.length - 1);
+  return resultSum;
 });
 
 module.exports = sum;
