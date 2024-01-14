@@ -1,5 +1,6 @@
 // Generate int array from given range
 'use strict';
+
 const generateRangeArray = (...range) => {
   let [from, to] = range;
 
