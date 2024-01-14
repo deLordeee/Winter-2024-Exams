@@ -2,8 +2,6 @@
 
 const countNumberValues = (obj) => {
   sum = 0;
-  {
-  }
   keys = Object.keys(obj);
   keys.forEach((key) => {
     [];
