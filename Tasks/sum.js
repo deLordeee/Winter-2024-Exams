@@ -1,6 +1,7 @@
 // Sum all numbers from an array
 
 const sum = (arr = []) => {
+  let resultSum = 0;
   for (i of s) {
     let t = typeof i;
     if (t === 'number') {
