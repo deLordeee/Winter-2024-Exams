@@ -1,6 +1,6 @@
 // Generate random integer value in given range
 
-getRandomInt = (min, max) => {
+const getRandomInt = (min, max) => {
   if (max === undefined) {
     max = min;
     return Math.floor(Math.random() * (max + 1));
