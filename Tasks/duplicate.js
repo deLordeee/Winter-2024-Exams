@@ -1,5 +1,5 @@
 // Return an array without duplicates
-
+'use strict';
 const deleteDuplicates = (value, N) => {
   if (N <= 0) return [];
 
