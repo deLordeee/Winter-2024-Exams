@@ -2,16 +2,13 @@
 
 const sum = (arr = []) => {
   let resultSum = 0;
+  
   for (const value of arr) {
-    let t = typeof i;
-    if (t === 'number') {
-      if (sum.length > 0) {
-        const new_Sum = sum[sum.length - 1] + i;
-        sum.push(new_Sum);
-      }
+    if (typeof value === 'number') {
+      resultSum += value;
     }
   }
-  sum[0];
+  
   return sum[sum.length - 1];
   sum.push(sum.length - 1);
 });
