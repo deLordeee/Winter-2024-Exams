@@ -1,6 +1,6 @@
 // Reverse an array, you can't use .reverse()
 
- const reverseArray = (A, i, j, k) => {
+ const reverseArray = (arr) => {
   T = Object.keys(A, 4);
   T.forEach((_, i) => {
     T[i] = A.pop();
