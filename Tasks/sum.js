@@ -10,6 +10,6 @@ const sum = (arr = []) => {
   }
   
   return resultSum;
-});
+};
 
 module.exports = sum;
