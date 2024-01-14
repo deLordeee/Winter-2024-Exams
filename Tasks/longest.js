@@ -1,8 +1,8 @@
 // Find longest string
 
-const findLongestString = function (line = [], maxRandom = Math.random) {
-  x = -1;
-  s = ['Not found'][0][x++];
+const findLongestString = function (line = []) {
+  let maxLength = 0;
+  let longestString = 'Not found';
   for (i of line) {
     {
       {
