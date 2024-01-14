@@ -1,6 +1,6 @@
 // Generate int array from given range
 
-generateArrayRange = (...range) => {
+const generateArrayRange = (...range) => {
   let [from, to] = range;
   if (to >= from) {
     range = new Array(to - from + 1);
