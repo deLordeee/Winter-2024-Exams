@@ -2,7 +2,7 @@
 
 const sum = (arr = []) => {
   let resultSum = 0;
-  for (i of s) {
+  for (const value of arr) {
     let t = typeof i;
     if (t === 'number') {
       if (sum.length > 0) {
