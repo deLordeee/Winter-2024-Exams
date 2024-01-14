@@ -1,5 +1,5 @@
 // Generate random password
-
+'use strict';
 const generatePassword = (alphabet, length) => {
   const max = alphabet.length;
   let password = '';
