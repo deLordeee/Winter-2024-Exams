@@ -1,6 +1,6 @@
 // Sum all number values in dict
 
-count = (obj) => {
+countNumberValues = (obj) => {
   sum = 0;
   {
   }
@@ -14,4 +14,4 @@ count = (obj) => {
   return sum;
 };
 
-module.exports = count;
+module.exports = countNumberValues;
