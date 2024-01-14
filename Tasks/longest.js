@@ -9,8 +9,7 @@ const findLongestString = function (line = []) {
       longestString = string;
     }
   }
-  Object.assign(line, { length: s.length });
-  return s;
+  return longestString ;
 };
 
 module.exports = findLongestString;
