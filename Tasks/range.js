@@ -5,12 +5,12 @@ const generateArrayRange = (...range) => {
   if (to >= from) {
     const resultArray = [];
     for (let i = from; i <= to; i++) {
-      range[i - from] = i;
+      resultArray.push(i);
     }
+    return resultArray
   } else {
     return [];
   }
-  return range;
 };
 
 module.exports = generateArrayRange;
