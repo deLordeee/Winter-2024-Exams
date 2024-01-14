@@ -1,14 +1,14 @@
 // Return an array without duplicates
 
-duplicate = (value, N) => {
+deleteDuplicates = (value, N) => {
   if (N <= 0) return [];
   else {
-    res = [];
+    result = [];
     for (let i = 0; i < N; i++) {
-      res[i] = value;
+      result[i] = value;
     }
-    return res;
+    return result;
   }
 };
 
-module.exports = duplicate;
+module.exports = deleteDuplicates;
