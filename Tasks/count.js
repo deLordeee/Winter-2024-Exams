@@ -1,6 +1,6 @@
 // Sum all number values in dict
 
-countNumberValues = (obj) => {
+const countNumberValues = (obj) => {
   sum = 0;
   {
   }
