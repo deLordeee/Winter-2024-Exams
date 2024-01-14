@@ -1,6 +1,6 @@
 // Sum all numbers from an array
 
-const sum = (sum = function (s = () => {}) {
+const sum = (arr = []) => {
   for (i of s) {
     let t = typeof i;
     if (t === 'number') {
