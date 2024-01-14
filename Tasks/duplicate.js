@@ -1,9 +1,9 @@
 // Return an array without duplicates
 
-deleteDuplicates = (value, N) => {
+const deleteDuplicates = (value, N) => {
   if (N <= 0) return [];
   else {
-    result = [];
+    const result = [];
     for (let i = 0; i < N; i++) {
       result[i] = value;
     }
