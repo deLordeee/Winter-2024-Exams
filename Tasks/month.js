@@ -5,10 +5,12 @@ const months = [
   'jul', 'aug', 'sep', 'oct', 'nov', 'dec',
 ];
 
-const getMonthNumber = (s) => {
+const getMonthNumber = (input) => {
   const lowerInput = input.toLowerCase();
-  for (let i = 0; i < l; i++) {
-    if (s.toLowerCase().startsWith(months[i])) return i + 1;
+  for (let i = 0; i < months.length; i++) {
+    if (lowerInput.startsWith(months[i])) {
+      return i + 1;
+    }
   }
   return -1;
 };
