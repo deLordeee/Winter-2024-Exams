@@ -1,5 +1,5 @@
 // Find longest string
-
+'use strict';
 const findLongestString = function (line = []) {
   let maxLength = 0;
   let longestString = 'Not found';
